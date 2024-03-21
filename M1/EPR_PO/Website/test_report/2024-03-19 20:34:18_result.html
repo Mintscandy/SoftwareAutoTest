@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test Report</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2.3"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    
+<style type="text/css" media="screen">
+body        { font-family: Microsoft YaHei,Tahoma,arial,helvetica,sans-serif;padding: 20px; font-size: 80%; }
+table       { font-size: 100%; }
+
+/* -- heading ---------------------------------------------------------------------- */
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+#total_row  { font-weight: bold; }
+.passCase   { color: #5cb85c; }
+.failCase   { color: #d9534f; font-weight: bold; }
+.errorCase  { color: #f0ad4e; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+</style>
+
+</head>
+<body >
+<script language="javascript" type="text/javascript">
+output_list = Array();
+
+/*level 调整增加只显示通过用例的分类 --Adil
+0:Summary //all hiddenRow
+1:Failed  //pt hiddenRow, ft none
+2:Pass    //pt none, ft hiddenRow
+3:Error   // pt hiddenRow, ft none
+4:All     //pt none, ft none
+下面设置 按钮展开逻辑  --XXX
+*/
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level == 2 || level == 0 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level < 2 || level ==3 ) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+    }
+
+    //加入【详细】切换文字变化 --Findyou
+    detail_class=document.getElementsByClassName('detail');
+	//console.log(detail_class.length)
+	if (level == 3) {
+		for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="收起"
+		}
+	}
+	else{
+			for (var i = 0; i < detail_class.length; i++){
+			detail_class[i].innerHTML="详细"
+		}
+	}
+}
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        //ID修改 点 为 下划线 -Findyou
+        tid0 = 't' + cid.substr(1) + '_' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        //修改点击无法收起的BUG，加入【详细】切换文字变化 --Findyou
+        if (toHide) {
+            document.getElementById(tid).className = 'hiddenRow';
+            document.getElementById(cid).innerText = "详细"
+        }
+        else {
+            document.getElementById(tid).className = '';
+            document.getElementById(cid).innerText = "收起"
+        }
+    }
+}
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+<div class='heading'>
+<h1 style="font-family: Microsoft YaHei">Test Report</h1>
+<p class='attribute'><strong>测试人员 : </strong> XXX</p>
+<p class='attribute'><strong>开始时间 : </strong> 2024-03-19 20:34:18</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:02:58.307808</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 6，通过 4，失败 1，错误 1，通过率= 66.67%</p>
+
+<p class='description'>erp test</p>
+</div>
+
+
+
+    <p id='show_detail_line'>
+    <a class="btn btn-primary" href='javascript:showCase(0)'>通过率 [66.67% ]</a>
+    <a class="btn btn-success" href='javascript:showCase(2)'>通过[ 4 ]</a>
+    <a class="btn btn-warning" href='javascript:showCase(3)'>错误[ 1 ]</a>
+    <a class="btn btn-danger" href='javascript:showCase(1)'>失败[ 1 ]</a>
+    <a class="btn btn-info" href='javascript:showCase(4)'>所有[ 6 ]</a>
+    </p>
+<table id='result_table' class="table table-condensed table-bordered table-hover">
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row' class="text-center success" style="font-weight: bold;font-size: 14px;">
+    <td>用例集/测试用例</td>
+    <td>总计</td>
+    <td>通过</td>
+    <td>错误</td>
+    <td>失败</td>
+    <td>详细</td>
+</tr>
+
+<tr class='errorClass warning'>
+    <td>test_add.LoginTest</td>
+    <td class="text-center">6</td>
+    <td class="text-center">4</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',6)" class="detail" id='c1'>详细</a></td>
+</tr>
+
+<tr id='ft1_1' class='none'>
+    <td class='errorCase'><div class='testcase'>test01_add: 商品品牌名称正确新增</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
+    <div id='div_ft1_1' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
+    <pre>
+    
+ft1_1: 捕获异常
+Traceback (most recent call last):
+  File "/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_case/page_object/AddPage.py", line 33, in get_alert
+    et = self.find_element(*self.error_loc).text
+  File "/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_case/page_object/BasePage.py", line 20, in find_element
+    return self.driver.find_element(*loc)
+  File "/Users/zhudichuan/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 830, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/zhudichuan/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Users/zhudichuan/.local/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".el-form-item__error"}
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+0   chromedriver                        0x0000000104dd6814 chromedriver + 4040724
+1   chromedriver                        0x0000000104dcea18 chromedriver + 4008472
+2   chromedriver                        0x0000000104a41870 chromedriver + 284784
+3   chromedriver                        0x0000000104a85080 chromedriver + 561280
+4   chromedriver                        0x0000000104abf048 chromedriver + 798792
+5   chromedriver                        0x0000000104a7974c chromedriver + 513868
+6   chromedriver                        0x0000000104a7a044 chromedriver + 516164
+7   chromedriver                        0x0000000104d9ba3c chromedriver + 3799612
+8   chromedriver                        0x0000000104d9ff1c chromedriver + 3817244
+9   chromedriver                        0x0000000104d84298 chromedriver + 3703448
+10  chromedriver                        0x0000000104da0a64 chromedriver + 3820132
+11  chromedriver                        0x0000000104d77054 chromedriver + 3649620
+12  chromedriver                        0x0000000104dbde74 chromedriver + 3939956
+13  chromedriver                        0x0000000104dbdfec chromedriver + 3940332
+14  chromedriver                        0x0000000104dce698 chromedriver + 4007576
+15  libsystem_pthread.dylib             0x0000000188af2034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000188aece3c thread_start + 8
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_case/test_add.py", line 22, in test01_add
+    print(po.get_alert())
+  File "/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_case/page_object/AddPage.py", line 37, in get_alert
+    et = self.find_element(*self.correct_loc).text
+  File "/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_case/page_object/BasePage.py", line 20, in find_element
+    return self.driver.find_element(*loc)
+  File "/Users/zhudichuan/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 830, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/Users/zhudichuan/.local/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "/Users/zhudichuan/.local/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".el-message__content"}
+  (Session info: chrome=122.0.6261.129)
+Stacktrace:
+0   chromedriver                        0x0000000104dd6814 chromedriver + 4040724
+1   chromedriver                        0x0000000104dcea18 chromedriver + 4008472
+2   chromedriver                        0x0000000104a41870 chromedriver + 284784
+3   chromedriver                        0x0000000104a85080 chromedriver + 561280
+4   chromedriver                        0x0000000104abf048 chromedriver + 798792
+5   chromedriver                        0x0000000104a7974c chromedriver + 513868
+6   chromedriver                        0x0000000104a7a044 chromedriver + 516164
+7   chromedriver                        0x0000000104d9ba3c chromedriver + 3799612
+8   chromedriver                        0x0000000104d9ff1c chromedriver + 3817244
+9   chromedriver                        0x0000000104d84298 chromedriver + 3703448
+10  chromedriver                        0x0000000104da0a64 chromedriver + 3820132
+11  chromedriver                        0x0000000104d77054 chromedriver + 3649620
+12  chromedriver                        0x0000000104dbde74 chromedriver + 3939956
+13  chromedriver                        0x0000000104dbdfec chromedriver + 3940332
+14  chromedriver                        0x0000000104dce698 chromedriver + 4007576
+15  libsystem_pthread.dylib             0x0000000188af2034 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000188aece3c thread_start + 8
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test02_add: 商品品牌名称错误新增（非汉字、英文字符类型）</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_2'>通过</button>
+    <div id='div_pt1_2' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
+    <pre>
+    
+pt1_2: 商品品牌名称输入有误，请重新输入。
+test case is successful test end!
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test03_add: 商品品牌名称为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_3'>通过</button>
+    <div id='div_pt1_3' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
+    <pre>
+    
+pt1_3: 商品品牌名称必填，请重新输入。
+test case is successful test end!
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test04_add: 商品品牌名称重复</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_4' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_4' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_4'>通过</button>
+    <div id='div_pt1_4' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
+    <pre>
+    
+pt1_4: 商品品牌名称重复，请重新输入。
+test case is successful test end!
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_5' class='none'>
+    <td class='failCase'><div class='testcase'>test05_add: 字符长度小于2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_5' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_5'>失败</button>
+    <div id='div_ft1_5' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_5' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_5'>失败</button>
+    <div id='div_ft1_5' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
+    <pre>
+    
+ft1_5: 商品品牌名称输入有误，请重新输入。
+Traceback (most recent call last):
+  File "/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_case/test_add.py", line 71, in test05_add
+    self.assertIn(data[1], po.get_alert())
+AssertionError: '商品品牌名称输八有误，请重新输八。' not found in '商品品牌名称输入有误，请重新输入。'
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test06_add: 字符长度小于2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_6' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_6'>通过</button>
+    <div id='div_pt1_6' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_6' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_6'>通过</button>
+    <div id='div_pt1_6' class="collapse in" style='text-align: left; color:red;cursor:pointer'>
+    <pre>
+    
+pt1_6: 商品品牌名称输入有误，请重新输入。
+test case is successful test end!
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='total_row' class="text-center active">
+    <td>总计</td>
+    <td>6</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>通过率：66.67%</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+    <div style=" position:fixed;right:50px; bottom:30px; width:20px; height:20px;cursor:pointer">
+    <a href="#"><span class="glyphicon glyphicon-eject" style = "font-size:30px;" aria-hidden="true">
+    </span></a></div>
+    
+
+</body>
+</html>
