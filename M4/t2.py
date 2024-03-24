@@ -27,3 +27,7 @@ class M4(unittest.TestCase):
         sleep(2)
         elem = Select(self.driver.find_element(By.ID, 'select_query_class'))
         elem.select_by_value("测试")
+
+
+if __name__ == '__main__':
+    unittest.main()
