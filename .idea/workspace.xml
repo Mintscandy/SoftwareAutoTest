@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2024ERP_TR.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M3/ERP_PO/Website/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/M3/ERP_PO/Website/test_case/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M3/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/M3/error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M4/csvv.py" beforeDir="false" afterPath="$PROJECT_DIR$/M4/csvv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M4/t2.py" beforeDir="false" afterPath="$PROJECT_DIR$/M4/t2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M4/t3.py" beforeDir="false" afterPath="$PROJECT_DIR$/M4/t3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/M4/ERP_PO",
+    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/M5/ERP_PO",
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
@@ -63,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M5\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M4\ERP_PO" />
     </key>
   </component>
