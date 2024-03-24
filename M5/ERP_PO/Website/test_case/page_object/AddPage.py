@@ -32,14 +32,13 @@ class Add(Page):
     def get_alert(self):
         time.sleep(5)
         try:
-
-            et = self.find_element(*self.error_loc).text
+            el = self.find_element(*self.error_loc).text
             pass
-            return et
+            return el
         except NoSuchElementException as e:
             time.sleep(3)
-            et = self.find_element(*self.correct_loc).text
-            return et
+            el = self.find_element(*self.correct_loc).text
+            return el
 
 
 def test_add_page(driver, name):

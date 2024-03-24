@@ -6,6 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_case/page_object/AddPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_case/page_object/AddPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t1.png" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t2.png" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t3.png" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t4.png" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t5.png" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t6.png" beforeDir="false" afterPath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/screenshot/t6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/test_1711261655.7280707_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/test_1711261744.5231974_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/test_1711261926.5023546_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/test_1711262002.9953852_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/test_1711262066.2560604_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/M5/ERP_PO/Website/test_report/test_1711262238.2144146_.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
