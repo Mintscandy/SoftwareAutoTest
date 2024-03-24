@@ -12,7 +12,8 @@ class Add(Page):
     add_loc = (By.XPATH, '/html/body/div[1]/div/div[2]/section/div/div[2]/div[3]/button')
     name_loc = (By.XPATH, '/html/body/div[2]/div/div[2]/form/div/div/div[1]/div/input')
     save_loc = (By.CSS_SELECTOR,
-                'body > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--primary.el-button--medium')
+                'body > div.el-dialog__wrapper > div > div.el-dialog__footer > div > '
+                'button.el-button.el-button--primary.el-button--medium')
     error_loc = (By.CLASS_NAME, 'el-form-item__error')
     correct_loc = (By.CLASS_NAME, 'el-message__content')
 
