@@ -6,7 +6,7 @@ from M4.ERP_PO.Website.test_case.page_object.AddPage import *
 from M4.ERP_PO.Website.test_case.page_object.LoginPage import *
 from M4.ERP_PO.Website.test_case.page_object.BasePage import *
 
-
+@ddt.ddt()
 class ERP(myunit.StartEnd):
     user_info = ['XTGLY', '123456']
 
