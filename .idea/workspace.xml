@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M1/EPR_PO/Website/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/M1/EPR_PO/Website/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M1/EPR_PO/Website/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/M1/EPR_PO/Website/test_case/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M2/ERP_PO/Website/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/M2/ERP_PO/Website/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M2/ERP_PO/Website/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/M2/ERP_PO/Website/test_case/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M3/ERP_PO/Website/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/M3/ERP_PO/Website/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M3/ERP_PO/Website/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/M3/ERP_PO/Website/test_case/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M6/ERP_PO/Website/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/M6/ERP_PO/Website/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M6/ERP_PO/Website/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/M6/ERP_PO/Website/test_case/test_add.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/M7/ERP_PO",
+    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/M8/ERP_PO",
     "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
   }
 }]]></component>
@@ -62,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M8\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M7\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M5\ERP_PO" />
@@ -93,6 +86,20 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_add.final.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M8/ERP_PO/Website/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add.final.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in t2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -179,27 +186,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for t3.ERP02.test1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="2024ERP_TR" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;t3.ERP02.test1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_add.final.test_01" />
         <item itemvalue="Python tests.Python tests in t3.py (1)" />
         <item itemvalue="Python.csvv" />
         <item itemvalue="Python tests.Python tests in test_add.py" />
         <item itemvalue="Python tests.Python tests in t2.py" />
-        <item itemvalue="Python tests.Unittests for t3.ERP02.test1" />
       </list>
     </recent_temporary>
   </component>
