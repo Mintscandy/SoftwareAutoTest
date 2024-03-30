@@ -17,4 +17,4 @@ def get_csv_file(filename, line):
 
 
 if __name__ == '__main__':
-    print(get_csv_file('/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_data/test_csv.csv', 1))
+    print(get_csv_file('/Users/zhudichuan/PycharmProjects/2024ERP_TR/M1/EPR_PO/Website/test_data/test_csv.csv.csv', 1))

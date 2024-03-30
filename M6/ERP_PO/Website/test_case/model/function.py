@@ -7,8 +7,8 @@ import os
 def inser_img(driver: webdriver.Chrome, filename):
     path = r'C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6\ERP_PO\Website\test_report\screenshot\\'
 
-    print(os.path.join(path, filename))
-    driver.get_screenshot_as_file(os.path.join(path + filename))
+    print(path + filename)
+    driver.get_screenshot_as_file(path + filename)
 
 
 def read_csv(filename):

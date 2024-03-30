@@ -21,8 +21,8 @@ class final(myunit.StartEnd):
         test_login_page(self.driver, self.user[0], self.user[1])
         sleep(3)
         test_add_page(self.driver, l[0])
-        function.inser_img(self.driver, "test_" + time.strftime("%Y:%m:d_%H:%M:%S") + ".png")
-
+        filename = "test_" + time.strftime("%Y_%m_%d_%H_%M_%S") + ".png"
+        function.inser_img(self.driver,filename)
         self.assertIn(Add(self.driver).get_alert(), l[1])
 
 

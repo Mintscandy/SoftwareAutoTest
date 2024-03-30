@@ -17,5 +17,5 @@ def get_csv_data(file, line):
 
 
 if __name__ == "__main__":
-    fn = '/Users/zhudichuan/PycharmProjects/2024ERP_TR/M3/ERP_PO/Website/test_data/test_csv.csv'
+    fn = '/Users/zhudichuan/PycharmProjects/2024ERP_TR/M3/ERP_PO/Website/test_data/test_csv.csv.csv'
     print(get_csv_data(fn, 1))

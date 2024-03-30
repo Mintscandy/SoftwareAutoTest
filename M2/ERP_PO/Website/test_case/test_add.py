@@ -8,7 +8,7 @@ import ddt
 
 class AddTest(myunit.StartEnd):
     userinfo = ["XTGLY", '123456']
-    test_data_csv = '/Users/zhudichuan/PycharmProjects/2024ERP_TR/M2/ERP_PO/Website/test_data/test_csv.csv'
+    test_data_csv = '/Users/zhudichuan/PycharmProjects/2024ERP_TR/M2/ERP_PO/Website/test_data/test_csv.csv.csv'
 
     def test01_add(self):
         """商品分类名称正确新增"""

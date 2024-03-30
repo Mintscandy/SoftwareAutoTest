@@ -9,7 +9,7 @@ from M3.ERP_PO.Website.test_case.model import myunit, function
 
 class final_ts(myunit.StartEnd):
     user_info = ['XTGLY', '123456']
-    data_csv = '/Users/zhudichuan/PycharmProjects/2024ERP_TR/M3/ERP_PO/Website/test_data/test_csv.csv'
+    data_csv = '/Users/zhudichuan/PycharmProjects/2024ERP_TR/M3/ERP_PO/Website/test_data/test_csv.csv.csv'
 
     def test01(self):
         """商品分类名称正确新增"""
