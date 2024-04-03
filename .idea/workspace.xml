@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/model/function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/model/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/model/myunit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/AddPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/AddPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/BasePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/LogingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/LogingPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/test_add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_data/test_csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_data/test_csv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_07_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_07_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_08_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_08_21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_08_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_08_34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_08_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_08_50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_09_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_09_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_09_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_09_22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report12_58_20.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report12_58_20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report12_58_25.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report12_58_25.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report12_59_30.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report12_59_30.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report13_00_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report13_00_08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report13_04_58.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report13_04_58.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report13_08_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report13_08_13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/driver/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/driver/driver.py" afterDir="false" />
-    </list>
+    <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
