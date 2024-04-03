@@ -40,7 +40,7 @@ class Add(Page):
             raise
 
 
-def test_add_page(driver,name):
+def test_add_page(driver, name):
     add = Add(driver)
     sleep(1)
     add.type_danwei()
@@ -50,5 +50,3 @@ def test_add_page(driver,name):
     add.type_name(name)
     sleep(1)
     add.type_save()
-
-
