@@ -6,8 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M1/EPR_PO/Website/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/M1/EPR_PO/Website/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M8/ERP_PO/Website/test_case/page_object/AddPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/M8/ERP_PO/Website/test_case/page_object/AddPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/model/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/model/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/model/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/model/myunit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/AddPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/AddPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/LogingPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/LogingPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/test_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/test_add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_data/test_csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_data/test_csv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_07_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_07_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_08_21.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_08_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_08_34.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_08_34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_08_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_08_50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_09_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_09_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report/screenshot/test_13_09_22.png" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report/screenshot/test_13_09_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report12_58_20.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report12_58_20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report12_58_25.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report12_58_25.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report12_59_30.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report12_59_30.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report13_00_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report13_00_08.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report13_04_58.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report13_04_58.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_report13_08_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_report13_08_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/driver/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/driver/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +57,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/MZ2023/EPR_PO",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/MZ2023/EPR_PO&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="SoftwareAutoTest" sdk-home="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\venv\Scripts\python.exe">
@@ -90,12 +109,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for MZ2023.EPR_PO.Website.test_case.test_add.final.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;MZ2023.EPR_PO.Website.test_case.test_add.final.test_01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_add.final.test_01 (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftwareAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -116,20 +149,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add.final.test_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in t2.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareAutoTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/M4/t2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in t3.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
@@ -206,9 +225,9 @@
       <list>
         <item itemvalue="Python tests.Python tests for test_add.final.test_01 (1)" />
         <item itemvalue="Python.csvv" />
+        <item itemvalue="Python tests.Python tests for MZ2023.EPR_PO.Website.test_case.test_add.final.test_01" />
         <item itemvalue="Python tests.Python tests for test_add.final.test_01" />
         <item itemvalue="Python tests.Python tests in test_add.py" />
-        <item itemvalue="Python tests.Python tests in t2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -236,16 +255,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MZ2023/EPR_PO/Webisite/test_case/page_object/LogingPage.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.common import NoSuchElementException
 
-from MZ2023.EPR_PO.Webisite.test_case.page_object.BasePage import *
+from MZ2023.EPR_PO.Website.test_case.page_object.BasePage import *
 from selenium.webdriver.common.by import By
 
 
@@ -33,11 +33,11 @@ class AddPage(Page):
     def get_alert(self):
         time.sleep(3)
         try:
-            et = self.find_element(*self.error_loc).text
+            et = self.find_element(*self.correct_loc).text
             return et
             pass
         except NoSuchElementException as e:
-            et = self.find_element(*self.correct_loc).text
+            et = self.find_element(*self.error_loc).text
             return et
 
 
