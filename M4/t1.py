@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 driver.implicitly_wait(5)
-driver.get('http://192.168.46.5:16209/')
+driver.get('http://192.168.46.5:14753/')
 driver.maximize_window()
 driver.find_element(By.ID, 'username').send_keys("XTGLY")
 driver.find_element(By.NAME, 'password').send_keys("123456")

@@ -15,7 +15,7 @@ class ERP_T2(unittest.TestCase):
         self.driver.quit()
 
     def test_denglu01(self):
-        self.driver.get('http://192.168.46.5:16209/')
+        self.driver.get('http://192.168.46.5:14753/')
         self.driver.find_element(By.NAME, "username").send_keys("XTGLY")
         self.driver.find_elements(By.CLASS_NAME, "password")[0].send_keys("123456")
         self.driver.find_element(By.XPATH, '//*[@id=\"signIn\"]').click()

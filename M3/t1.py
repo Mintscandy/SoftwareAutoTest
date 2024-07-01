@@ -5,7 +5,7 @@ from time import sleep
 driver = webdriver.Chrome()
 driver.implicitly_wait(5)
 driver.maximize_window()
-driver.get('http://192.168.46.5:16209/login')
+driver.get('http://192.168.46.5:14753/login')
 
 driver.find_element(By.NAME, 'username').send_keys("XTGLY")
 driver.find_element(By.ID, 'password').send_keys("123456")

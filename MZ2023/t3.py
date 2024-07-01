@@ -20,7 +20,7 @@ class T3(unittest.TestCase):
 
     @ddt.data(*dc)
     def test01(self, l):
-        self.driver.get('http://192.168.46.5:16209/')
+        self.driver.get('http://192.168.46.5:14753/')
         self.driver.find_elements(By.TAG_NAME, "input")[0].send_keys("XTGLY")
         self.driver.find_element(By.CLASS_NAME, "password").send_keys("123456")
         self.driver.find_element(By.NAME, 'signIn').click()

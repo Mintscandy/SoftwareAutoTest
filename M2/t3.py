@@ -13,7 +13,7 @@ class T3(unittest.TestCase):
     def setUp(self) -> None:
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(3)
-        self.driver.get('http://192.168.46.5:16209/login')
+        self.driver.get('http://192.168.46.5:14753/login')
         self.driver.maximize_window()
 
     def tearDown(self) -> None:

@@ -20,7 +20,7 @@ class ERPT1(unittest.TestCase):
 
     @ddt.data(*cd)
     def test_denglu01(self, l):
-        self.driver.get('http://192.168.46.5:16209/')
+        self.driver.get('http://192.168.46.5:14753/')
         self.driver.find_element(By.ID, "username").send_keys("XTGLY")
         self.driver.find_element(By.NAME, "password").send_keys("123456")
         self.driver.find_element(By.TAG_NAME, "button").click()

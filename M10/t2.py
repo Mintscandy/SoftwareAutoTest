@@ -14,7 +14,7 @@ class ERPT1(unittest.TestCase):
         self.driver.quit()
 
     def test_denglu01(self):
-        self.driver.get('http://192.168.46.5:16209/')
+        self.driver.get('http://192.168.46.5:14753/')
         self.driver.find_element(By.ID,"username").send_keys("XTGLY")
         self.driver.find_element(By.ID,"password").send_keys("123456")
         self.driver.find_element(By.CLASS_NAME,"el-button").click()

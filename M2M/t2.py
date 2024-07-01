@@ -14,13 +14,13 @@ class T2(unittest.TestCase):
         self.driver.quit()
 
     def test_denglu01(self):
-        self.driver.get("http://192.168.46.5:16209/")
+        self.driver.get("http://192.168.46.5:14753/")
         self.driver.find_element(By.ID, "username").send_keys("XTGLY")
         self.driver.find_element(By.NAME, "password").send_keys("123456")
         self.driver.find_element(By.TAG_NAME, "button").click()
 
     def test_denglu02(self):
-        self.driver.get("http://192.168.46.5:16209/")
+        self.driver.get("http://192.168.46.5:14753/")
         self.driver.find_element(By.NAME, "username").send_keys("XTGLY")
         self.driver.find_element(By.ID, "password").send_keys("123456")
         self.driver.find_element(By.CLASS_NAME, "el-button").click()

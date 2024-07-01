@@ -5,7 +5,7 @@ from selenium import webdriver
 class Page():
     def __init__(self, driver: webdriver.Chrome):
         self.driver: webdriver.Chrome = driver
-        self.base_url = 'http://192.168.46.5:16209'
+        self.base_url = 'http://192.168.46.5:14753'
         self.timeout = 10
 
     def _open(self, url):

@@ -16,7 +16,7 @@ class T1(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(5)
-        self.driver.get('http://192.168.46.5:16209/')
+        self.driver.get('http://192.168.46.5:14753/')
 
     def tearDown(self) -> None:
         self.driver.quit()

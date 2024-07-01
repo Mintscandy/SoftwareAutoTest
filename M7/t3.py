@@ -20,7 +20,7 @@ class ERP(unittest.TestCase):
 
     @ddt.data(*case_data)
     def test_01(self, l):
-        self.driver.get('http://192.168.46.5:16209/')
+        self.driver.get('http://192.168.46.5:14753/')
         self.driver.find_element(By.NAME, 'username').send_keys("XTGLY")
         self.driver.find_element(By.CLASS_NAME, "password").send_keys("123456")
         self.driver.find_element(By.ID, "signIn").click()

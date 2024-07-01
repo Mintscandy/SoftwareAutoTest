@@ -6,7 +6,7 @@ from time import sleep
 driver = webdriver.Chrome()
 driver.implicitly_wait(3)
 driver.maximize_window()
-driver.get('http://192.168.46.5:16209/')
+driver.get('http://192.168.46.5:14753/')
 driver.find_element(By.ID, "username").send_keys("XTGLY")
 driver.find_elements(By.TAG_NAME, "input")[1].send_keys("123456")
 driver.find_element(By.CLASS_NAME, "signIn").click()

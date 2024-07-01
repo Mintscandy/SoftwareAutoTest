@@ -9,7 +9,7 @@ class ERP1(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(3)
         self.driver.maximize_window()
-        self.driver.get('http://192.168.46.5:16209/login')
+        self.driver.get('http://192.168.46.5:14753/login')
 
     def tearDown(self) -> None:
         self.driver.quit()
