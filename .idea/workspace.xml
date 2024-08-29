@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/HTMLTestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/run_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_case/model/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_case/model/myunit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_case/page_object/AddPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_case/page_object/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_case/page_object/LogingPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_case/test_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_data/test_csv.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/16_49_07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/16_53_20.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_49_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_49_34.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_49_52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_50_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_50_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_50_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_53_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_53_46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_54_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_54_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_54_41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/Website/test_report/screenshot/test_16_55_00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/ERP_PO/driver/driver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/csvv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/t1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/t2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/t3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/test03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M6M/testdata.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoTest/Page/AddPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoTest/Page/BasePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoTest/Page/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoTest/test/test_Add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M10/ERP_PO/Website/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/M10/ERP_PO/Website/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M4M/t3.py" beforeDir="false" afterPath="$PROJECT_DIR$/M4M/t3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/run_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_case/page_object/BasePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_data/test_csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/MZ2023/EPR_PO/Website/test_data/test_csv.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M8/ERP_PO/driver/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/M8/ERP_PO/driver/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mints_Candy/PycharmProjects/2024GZ_PRO&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/训练机备份/2024国赛/交付/6. 自动化测试/任务3：系统管理员—商品单位—自动化测试/任务实训指导书源码/基于Python",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="SoftwareAutoTest" sdk-home="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\venv\Scripts\python.exe">
@@ -93,21 +55,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M8_1\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6M\ERP_PO\Website" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M4M\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M2M\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\MZ2023\EPR_PO" />
-      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M10\ERP_PO" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M8_1\ERP_PO\Website" />
+      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M8_1\ERP_PO\Website\test_case" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6M\ERP_PO" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6M\ERP_PO\Website" />
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6M\ERP_PO\Website\test_case" />
-      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M2M\ERP_PO\Website\test_case" />
-      <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M7\ERP_PO\Website" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csvv">
+  <component name="RunManager">
     <configuration name="csvv" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SoftwareAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,6 +89,20 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for M8_1.ERP_PO.Website.test_case.test_add.test_final" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M8_1/ERP_PO/Website/test_report" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;M8_1.ERP_PO.Website.test_case.test_add.test_final&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for MZ2023.EPR_PO.Website.test_case.test_add.final.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -157,6 +133,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_add.final" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SoftwareAutoTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M8/ERP_PO/Website/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add.final&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_add.final.test01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SoftwareAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,20 +158,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_add.final.test01&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_add.final.test_01" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SoftwareAutoTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/M4M/ERP_PO/Website/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_add.final.test_01&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -271,6 +247,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for M8_1.ERP_PO.Website.test_case.test_add.test_final" />
+        <item itemvalue="Python tests.Python tests for test_add.final (1)" />
         <item itemvalue="Python tests.Python tests for test_add.final" />
         <item itemvalue="Python tests.Python tests for test_add.final.test01" />
         <item itemvalue="Python tests.Python tests for MZ2023.EPR_PO.Website.test_case.test_add.final.test_01" />
@@ -294,11 +272,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="45c7769f-0d40-4b89-af8c-a4cbc395811c">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Mints_Candy/Desktop/SoftwareAutoTest/M6" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="45c7769f-0d40-4b89-af8c-a4cbc395811c" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
