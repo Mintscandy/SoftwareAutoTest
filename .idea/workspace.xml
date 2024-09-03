@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9062579-2ad0-433f-bfee-dea86b609a87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/M8/ERP_PO/driver/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/M8/ERP_PO/driver/driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Mints_Candy/Desktop/训练机备份/2024国赛/交付/6. 自动化测试/任务3：系统管理员—商品单位—自动化测试/任务实训指导书源码/基于Python",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mints_Candy/Desktop/训练机备份/2024国赛/交付/6. 自动化测试/任务3：系统管理员—商品单位—自动化测试/任务实训指导书源码/基于Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="SoftwareAutoTest" sdk-home="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\venv\Scripts\python.exe">
@@ -69,7 +69,7 @@
       <recent name="C:\Users\Mints_Candy\Desktop\SoftwareAutoTest\M6M\ERP_PO\Website\test_case" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.csvv">
     <configuration name="csvv" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SoftwareAutoTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,7 +248,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for M8_1.ERP_PO.Website.test_case.test_add.test_final" />
-        <item itemvalue="Python tests.Python tests for test_add.final (1)" />
         <item itemvalue="Python tests.Python tests for test_add.final" />
         <item itemvalue="Python tests.Python tests for test_add.final.test01" />
         <item itemvalue="Python tests.Python tests for MZ2023.EPR_PO.Website.test_case.test_add.final.test_01" />
